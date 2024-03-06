@@ -325,7 +325,7 @@ img {
 }
 .portfolio-media:hover .text-transition,
 .portfolio-media:focus .text-transition{
-  transform: translateY(0%);
+  transform: translateY(0);
 }
 .list-fourth-item:hover,
 .list-fourth-item:focus{
