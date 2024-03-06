@@ -72,7 +72,6 @@ img {
   padding: 24px 0;
 }
 .page-nav .link {
-  color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -82,11 +81,11 @@ img {
   color: #404bbf;
   text-decoration: underline;
 }
-.link-change{
+.change{
   position: relative;
   color: #404bbf;
 }
-.link-change::after {
+.change::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -97,11 +96,11 @@ img {
   border-radius: 2px;
 }
 .link {
-  padding: 24px 0;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
   text-decoration: none;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
