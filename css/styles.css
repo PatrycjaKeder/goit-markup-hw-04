@@ -82,11 +82,11 @@ img {
   color: #404bbf;
   text-decoration: underline;
 }
-.change{
+.link-change{
   position: relative;
-  color:#404bbf;
+  color: #404bbf;
 }
-.change::after {
+.link-change::after {
   content: "";
   width: 100%;
   position: absolute;
