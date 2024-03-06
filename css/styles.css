@@ -398,7 +398,7 @@ img {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.footer-text-box{
+.footer-box-logo {
   margin-right: 120px;
 }
 .social-media-paragraph{
@@ -416,7 +416,6 @@ img {
 .social-media-footer-icons{
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-footer-link{
   width: 100%;
@@ -426,6 +425,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-footer-link:hover,
 .social-media-footer-link:focus{
